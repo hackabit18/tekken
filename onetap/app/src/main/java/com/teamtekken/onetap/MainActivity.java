@@ -1,4 +1,4 @@
-package com.satyamapp.teamtekken;
+package com.teamtekken.onetap;
 
 import android.content.Intent;
 import android.os.Bundle;
