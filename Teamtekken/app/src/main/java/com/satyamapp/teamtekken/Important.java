@@ -9,9 +9,12 @@ import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.media.Image;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -37,7 +40,9 @@ import java.util.ArrayList;
 
 public class Important extends AppCompatActivity {
 
+
     private ImageButton btn_start, btn_stop, btn_clear, btn_geo;
+    private ImageButton btn_police,btn_amb,btn_fire;
     private TextView textView,textView2;
     private FirebaseDatabase fb;
     private BroadcastReceiver broadcastReceiver;
@@ -92,6 +97,9 @@ public class Important extends AppCompatActivity {
         setContentView(R.layout.activity_important);
 
         btn_start = (ImageButton) findViewById(R.id.start);
+        btn_police = (ImageButton) findViewById(R.id.police);
+        btn_fire=findViewById(R.id.fire);
+        btn_amb=(ImageButton) findViewById(R.id.ambulance);
         //btn_stop = (Button) findViewById(R.id.button2);
         //btn_clear = (Button) findViewById(R.id.button3);
         btn_geo = (ImageButton) findViewById(R.id.sos);
@@ -153,6 +161,46 @@ public class Important extends AppCompatActivity {
                 getClosest();
             }
         });
+        btn_police.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View arg0) {
+                Intent callIntent = new Intent(Intent.ACTION_CALL);
+                callIntent.setData(Uri.parse("tel: 7033753975"));
+
+                if (ActivityCompat.checkSelfPermission(Important.this,
+                        Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                    return;
+                }
+                startActivity(callIntent);
+            }
+        });
+        btn_amb.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View arg0) {
+                Intent callIntent = new Intent(Intent.ACTION_CALL);
+                callIntent.setData(Uri.parse("tel: 7033753975"));
+
+                if (ActivityCompat.checkSelfPermission(Important.this,
+                        Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                    return;
+                }
+                startActivity(callIntent);
+            }
+        });
+        btn_fire.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View arg0) {
+                Intent callIntent = new Intent(Intent.ACTION_CALL);
+                callIntent.setData(Uri.parse("tel: 7033753975"));
+
+                if (ActivityCompat.checkSelfPermission(Important.this,
+                        Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                    return;
+                }
+                startActivity(callIntent);
+            }
+        });
+
 
     }
 

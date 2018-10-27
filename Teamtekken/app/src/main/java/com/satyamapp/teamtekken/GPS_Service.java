@@ -124,7 +124,7 @@ public class GPS_Service extends Service
 
     private void currentlocation(Double lat, Double lng) {
 
-            mDatabase2 = FirebaseDatabase.getInstance().getReference().child("Current Locatoion");
+            mDatabase2 = FirebaseDatabase.getInstance().getReference().child("Current Location");
 
             GeoFire geoFire = new GeoFire(mDatabase2);
             //geoFire.setLocation(uid, new GeoLocation(lat, lng));

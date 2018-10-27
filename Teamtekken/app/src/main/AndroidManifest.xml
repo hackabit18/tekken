@@ -7,6 +7,8 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
 
 
     <application
@@ -27,7 +29,6 @@
         <activity android:name=".ProfileSetup" />
         <activity android:name=".BaseActivity" />
         <activity android:name=".Important"></activity>
-
         <service android:enabled="true" android:name=".GPS_Service" />
     </application>
 
