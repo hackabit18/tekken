@@ -223,7 +223,7 @@
                             <ImageButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="63dp"
-                                android:background="@drawable/orange"
+                                android:background="@drawable/orange1"
                                 android:id="@+id/orange"
                                 android:layout_margin="25dp" />
 
@@ -235,7 +235,7 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:textSize="20dp"
-                                android:text="Orange"/>
+                                android:text="Alert"/>
 
 
 
@@ -275,7 +275,7 @@
                             <ImageButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="63dp"
-                                android:background="@drawable/whatsapp"
+                                android:background="@drawable/onetap1"
                                 android:id="@+id/wahtsapp"
                                 android:layout_margin="25dp" />
 
@@ -287,7 +287,7 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:textSize="20dp"
-                                android:text="Whatsapp"/>
+                                />
 
 
 
@@ -327,7 +327,7 @@
                             <ImageButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="63dp"
-                                android:background="@drawable/ball"
+                                android:background="@drawable/loc"
                                 android:id="@+id/start"
                                 android:layout_margin="25dp" />
 

@@ -105,7 +105,7 @@ public class Important extends AppCompatActivity {
             enable_buttons();
 
 
-        databaseReference = FirebaseDatabase.getInstance().getReference().child("Current Locatoion");
+        databaseReference = FirebaseDatabase.getInstance().getReference().child("Current Location");
 
     }
 
