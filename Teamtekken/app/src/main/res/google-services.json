@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "157282454742",
+    "firebase_url": "https://teamtekken-2aded.firebaseio.com",
+    "project_id": "teamtekken-2aded",
+    "storage_bucket": "teamtekken-2aded.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157282454742:android:7246608be8efa53e",
+        "android_client_info": {
+          "package_name": "com.satyamapp.teamtekken"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157282454742-hm9enranshg0pk226n0esdmv81dd0ki2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA95t7MIOlYysA1LOTeTvVTpLSv8OUcc2Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "710106796333",
+    "firebase_url": "https://teamtekken-ebd7e.firebaseio.com",
+    "project_id": "teamtekken-ebd7e",
+    "storage_bucket": "teamtekken-ebd7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710106796333:android:7246608be8efa53e",
+        "android_client_info": {
+          "package_name": "com.satyamapp.teamtekken"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710106796333-cjgv3v0fom262n6grc73cfsfq8raia8e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.satyamapp.teamtekken",
+            "certificate_hash": "a10949184fa744278a523d1f03496fd632b24bf6"
+          }
+        },
+        {
+          "client_id": "710106796333-inkh5pjc99laj7fov4jl8n68unopdn84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCifYe9VMLf5gX_w6nQLrQE-N6T525CefI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710106796333-inkh5pjc99laj7fov4jl8n68unopdn84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
